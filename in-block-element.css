@@ -1,0 +1,18 @@
+h1{
+    background-color: indianred;
+    color: aliceblue;
+    display: inline-block ;
+    width: 400px;
+    height: 200px;
+    text-align:center;
+    padding: 5px;
+    margin: 5px 7px;
+    
+}
+span{
+    background-color:darkcyan ;
+    color: aliceblue;
+    display: inline-block;  width: 100px;
+    height: 100px;
+  
+}

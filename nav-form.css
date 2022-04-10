@@ -1,0 +1,52 @@
+.background {
+    background-color: darkcyan;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+div a {
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+    font-size: 1.5em;
+    padding: 15px 20px;
+}
+
+div a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: aquamarine;
+    
+
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input,
+button {
+    font-size: 20px;
+    border: 2px solid gray;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+
+.login-form button {
+    background-color: lightcoral;
+    color: aliceblue;
+    font-weight: 700px;
+}

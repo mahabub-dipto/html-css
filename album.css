@@ -1,0 +1,26 @@
+.album{
+   
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.photo img{
+    width: 100%;
+}
+.frame{
+    width: 400px;
+    height: 200px;
+    position: relative;
+    border: 3px solid black;
+    border-radius: 7px;
+    margin: 50px;
+}
+.detail{
+    position: absolute;
+    top: 0px;
+    display: none;
+}
+.album:hover .detail{
+    display: block;
+    background-color: rgba(90, 131, 131, 0.267);
+}

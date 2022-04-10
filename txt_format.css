@@ -1,0 +1,25 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}img{
+  float: none;
+  margin:0 auto;
+  display: block;
+
+
+}
+button{
+  color: white;
+  background-color: lightseagreen;
+  width: 150px;
+  height: 35px;
+  border:0px ;
+}
+button:hover{
+  background-color: antiquewhite;
+  color: red;
+  width: 160px;
+  height: 45px;
+  border-radius: 12px;
+  transition: 0.4s;
+}

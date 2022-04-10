@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    background-color: lightseagreen;
+    text-align: center;
+}
+h1:hover{
+    background-color: lightblue;
+    color:green ;
+    border-radius: 5px;
+    width: 400px;
+    margin-left: 33.33%;
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+    background-color: aquamarine;
+    border-radius: 6px;
+}
+div{
+    color: black;
+    
+    border-radius: 12px;
+}
+div:focus{
+    color: aqua;
+    border: 3px solid yellow;
+}
+button{
+    background-color: aquamarine;
+    margin: 25px;
+    padding: 5px;
+    border-radius: 7px;
+    color: black;
+}
+button:hover{
+    background-color: cadetblue;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+ul{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+
+li:nth-child(2n+1){
+    color: red;
+    background-color: lightgreen;
+ 
+}
+
+
+
+

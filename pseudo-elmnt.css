@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+}
+
+h1::before{
+    content:'Bye' ;
+    color:red;
+}    
+h1::after{
+    content:'Hello' ;
+
+    color: aquamarine;
+}

@@ -1,0 +1,18 @@
+.visibility{
+    background-color: cadetblue;
+    width: 400px;
+    height: 400px;
+    /* overflow-y: scroll; */
+    overflow: auto;
+
+}
+.Short-text{
+    width: 100px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+p{
+    white-space: nowrap ;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

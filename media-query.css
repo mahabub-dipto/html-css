@@ -1,0 +1,29 @@
+.menu-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product{
+    border: 2px solid goldenrod;
+    width: 200px;
+}
+.product img{
+    width: 75%;
+}
+
+/* 
+@media (max-width:700px) {
+    .product{
+        background-color: aqua;
+    }
+    .menu-container{
+        flex-direction: column;
+    }
+    
+}
+@media (min-width:900px) {
+    .product{
+        background-color: aquamarine;
+    }
+    
+} */
+    

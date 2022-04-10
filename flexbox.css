@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: stretch; */
+    align-items: center;
+    border: 2px solid skyblue;
+    height: 450px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    font-size: 3em;
+
+}
+#box-2{
+    flex-grow: 1;
+}
